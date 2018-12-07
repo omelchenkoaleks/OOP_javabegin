@@ -2,7 +2,7 @@ package com.omelchenkoaleks.shop.client;
 
 import com.omelchenkoaleks.shop.interfaces.VisitorInterface;
 
-public class BaseVisitor implements VisitorInterface {
+public abstract class BaseVisitor implements VisitorInterface {
 
     private String name;
 

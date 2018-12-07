@@ -4,7 +4,7 @@ import com.omelchenkoaleks.shop.department.BaseDepartment;
 import com.omelchenkoaleks.shop.interfaces.DepartamentInterface;
 import com.omelchenkoaleks.shop.interfaces.GoodsInterface;
 
-public class BaseGoods implements GoodsInterface {
+public abstract class BaseGoods implements GoodsInterface {
 
     // свойства, которые будут иметь все товары
 

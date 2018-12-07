@@ -6,10 +6,15 @@ import com.omelchenkoaleks.shop.interfaces.BankInterface;
     Класс BaseBank является промежуточным классом. Если его не было пришлось бы
     прописывать переменные и методы в каждом классе реализации.
  */
-public class BaseBank implements BankInterface {
+public abstract class BaseBank implements BankInterface {
 
     private String name;
     private String creditDescription;
+
+    public BaseBank(String name, String creditDescription) {
+        this.name = name;
+        this.creditDescription = creditDescription;
+    }
 
     @Override
     public String getName() {
