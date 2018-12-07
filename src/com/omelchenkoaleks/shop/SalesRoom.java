@@ -1,7 +1,7 @@
 package com.omelchenkoaleks.shop;
 
-import com.omelchenkoaleks.shop.client.BaseVisitor;
-import com.omelchenkoaleks.shop.department.BaseDepartment;
+import com.omelchenkoaleks.shop.interfaces.DepartamentInterface;
+import com.omelchenkoaleks.shop.interfaces.VisitorInterface;
 import com.omelchenkoaleks.shop.service.Administrator;
 
 import java.util.ArrayList;
@@ -10,11 +10,11 @@ import java.util.ArrayList;
 public class SalesRoom {
 
     // в каждом отделе есть свои сотрудники
-    private ArrayList<BaseDepartment> deparmentList;
+    private ArrayList<DepartamentInterface> deparmentList;
 
     private String name;
 
-    private ArrayList<BaseVisitor> visitorList;
+    private ArrayList<VisitorInterface> visitorList;
 
     private Administrator administrator;
 }

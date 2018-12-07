@@ -1,8 +1,11 @@
 package com.omelchenkoaleks.shop.client;
 
-public class BaseVisitor {
+import com.omelchenkoaleks.shop.interfaces.VisitorInterface;
+
+public class BaseVisitor implements VisitorInterface {
 
     private String name;
+
 
     public void buy() {
 
@@ -10,5 +13,10 @@ public class BaseVisitor {
 
     public void returnGoods() {
 
+    }
+
+    @Override
+    public String getName() {
+        return name;
     }
 }

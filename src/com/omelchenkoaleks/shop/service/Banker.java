@@ -1,11 +1,11 @@
 package com.omelchenkoaleks.shop.service;
 
-import com.omelchenkoaleks.shop.bank.BaseBank;
+import com.omelchenkoaleks.shop.interfaces.BankInterface;
 
 // Банкир
 public class Banker extends BaseEmployee {
 
-    public BaseBank bank;
+    public BankInterface bank;
 
     public void sendRequest() {
 

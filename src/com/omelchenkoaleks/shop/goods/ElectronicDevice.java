@@ -1,6 +1,8 @@
 package com.omelchenkoaleks.shop.goods;
 
-public class ElectronicDevice extends BaseGoods {
+import com.omelchenkoaleks.shop.interfaces.ElectronicDeviceInterface;
+
+public class ElectronicDevice extends BaseGoods implements ElectronicDeviceInterface {
 
     public void on() {
 
