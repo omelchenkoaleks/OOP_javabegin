@@ -3,7 +3,7 @@ package com.omelchenkoaleks.shop.service;
 import com.omelchenkoaleks.shop.interfaces.DepartamentInterface;
 import com.omelchenkoaleks.shop.interfaces.EmployeeInterface;
 
-public abstract class BaseEmployee implements EmployeeInterface {
+public abstract class AbstractEmployee implements EmployeeInterface {
 
     // общие свойства для всех сотрудников
 
@@ -11,7 +11,7 @@ public abstract class BaseEmployee implements EmployeeInterface {
     private DepartamentInterface department;
     private boolean free;
 
-    public BaseEmployee() {
+    public AbstractEmployee() {
         super();
     }
 

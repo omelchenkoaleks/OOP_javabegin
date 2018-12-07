@@ -7,7 +7,7 @@ import com.omelchenkoaleks.shop.interfaces.GoodsInterface;
 import java.util.ArrayList;
 
 // Отдел
-public abstract class BaseDepartment implements DepartamentInterface {
+public abstract class AbstractDepartment implements DepartamentInterface {
 
     private String name;
     private ArrayList<EmployeeInterface> employeeList;

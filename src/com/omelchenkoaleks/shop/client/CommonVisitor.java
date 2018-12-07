@@ -1,4 +1,4 @@
 package com.omelchenkoaleks.shop.client;
 
-public class CommonVisitor extends BaseVisitor{
+public class CommonVisitor extends AbstractVisitor {
 }

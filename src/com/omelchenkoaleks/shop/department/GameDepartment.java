@@ -1,4 +1,4 @@
 package com.omelchenkoaleks.shop.department;
 
-public class GameDepartment extends BaseDepartment {
+public class GameDepartment extends AbstractDepartment {
 }

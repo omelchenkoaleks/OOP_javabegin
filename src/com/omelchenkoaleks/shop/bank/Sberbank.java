@@ -1,6 +1,6 @@
 package com.omelchenkoaleks.shop.bank;
 
-public class Sberbank extends BaseBank {
+public class Sberbank extends AbstractBank {
 
 
     public Sberbank(String name, String creditDescription) {
