@@ -8,8 +8,14 @@ import com.omelchenkoaleks.shop.interfaces.BankInterface;
  */
 public abstract class AbstractBank implements BankInterface {
 
+    // количество заявок по всем банкам
+    public static int requestCount;
+
     private String name;
     private String creditDescription;
+
+    public AbstractBank() {
+    }
 
     public AbstractBank(String name, String creditDescription) {
         this.name = name;
@@ -26,7 +32,9 @@ public abstract class AbstractBank implements BankInterface {
         return creditDescription;
     }
 
-    public void checkInfo() {}
+    public void checkInfo() {
+        requestCount++;
+    }
 
     public void giveCredit() {}
 }
