@@ -7,6 +7,6 @@ public interface DepartamentInterface {
     String getName();
 
     // В этих коллекциях тип Интерфейса, чтобы можно было в них добавлять любые дочерние типы.
-    ArrayList<EmployeeInterface> getEmployeeList();
+    ArrayList<StaffInterface> getEmployeeList();
     ArrayList<GoodsInterface> getGoodsList();
 }

@@ -1,7 +1,7 @@
-package com.omelchenkoaleks.shop.service;
+package com.omelchenkoaleks.shop.staff;
 
 // Кассир
-public class Cashier extends AbstractEmployee {
+public class Cashier extends AbstractStaff {
 
     public void getMoney() {
 

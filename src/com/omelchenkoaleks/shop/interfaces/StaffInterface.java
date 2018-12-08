@@ -1,6 +1,6 @@
 package com.omelchenkoaleks.shop.interfaces;
 
-public interface EmployeeInterface {
+public interface StaffInterface {
 
     String getName();
 

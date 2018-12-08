@@ -2,7 +2,7 @@ package com.omelchenkoaleks.shop;
 
 import com.omelchenkoaleks.shop.interfaces.DepartamentInterface;
 import com.omelchenkoaleks.shop.interfaces.VisitorInterface;
-import com.omelchenkoaleks.shop.service.Administrator;
+import com.omelchenkoaleks.shop.staff.Administrator;
 
 import java.util.ArrayList;
 

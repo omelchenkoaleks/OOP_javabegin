@@ -1,7 +1,7 @@
-package com.omelchenkoaleks.shop.service;
+package com.omelchenkoaleks.shop.staff;
 
 // Охраник
-public class Security extends AbstractEmployee {
+public class Security extends AbstractStaff {
 
     public void checkVisitor() {
 

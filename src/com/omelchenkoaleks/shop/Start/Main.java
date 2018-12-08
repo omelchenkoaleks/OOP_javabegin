@@ -10,12 +10,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-        GoodsInterface goods = new Televisor("Samsung");
+//        GoodsInterface goods = new Televisor("Samsung");
+        GoodsInterface goods = new Computer("Asus");
+
 
         // Вот это и есть приведение типов:
-        ((Televisor) goods).selectChannel();
+//        ((Televisor) goods).selectChannel();
 
-        // Записываем то, на что ссылается переменная goods
+        // или так, Записываем то, на что ссылается переменная goods
 //        Televisor t = (Televisor) goods;
 
 //        Computer computer = new Computer("MacBook");

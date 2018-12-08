@@ -1,9 +1,9 @@
-package com.omelchenkoaleks.shop.service;
+package com.omelchenkoaleks.shop.staff;
 
 import com.omelchenkoaleks.shop.interfaces.BankInterface;
 
 // Банкир
-public class Banker extends AbstractEmployee {
+public class Banker extends AbstractStaff {
 
     public BankInterface bank;
 

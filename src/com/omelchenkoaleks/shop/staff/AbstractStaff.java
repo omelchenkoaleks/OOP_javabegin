@@ -1,9 +1,9 @@
-package com.omelchenkoaleks.shop.service;
+package com.omelchenkoaleks.shop.staff;
 
 import com.omelchenkoaleks.shop.interfaces.DepartamentInterface;
-import com.omelchenkoaleks.shop.interfaces.EmployeeInterface;
+import com.omelchenkoaleks.shop.interfaces.StaffInterface;
 
-public abstract class AbstractEmployee implements EmployeeInterface {
+public abstract class AbstractStaff implements StaffInterface {
 
     // общие свойства для всех сотрудников
 
@@ -11,7 +11,7 @@ public abstract class AbstractEmployee implements EmployeeInterface {
     private DepartamentInterface department;
     private boolean free;
 
-    public AbstractEmployee() {
+    public AbstractStaff() {
         super();
     }
 

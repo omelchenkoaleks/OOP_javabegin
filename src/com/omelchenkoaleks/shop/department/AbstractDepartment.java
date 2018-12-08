@@ -1,7 +1,7 @@
 package com.omelchenkoaleks.shop.department;
 
 import com.omelchenkoaleks.shop.interfaces.DepartamentInterface;
-import com.omelchenkoaleks.shop.interfaces.EmployeeInterface;
+import com.omelchenkoaleks.shop.interfaces.StaffInterface;
 import com.omelchenkoaleks.shop.interfaces.GoodsInterface;
 
 import java.util.ArrayList;
@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public abstract class AbstractDepartment implements DepartamentInterface {
 
     private String name;
-    private ArrayList<EmployeeInterface> employeeList;
+    private ArrayList<StaffInterface> employeeList;
     private ArrayList<GoodsInterface> goodsList;
 
     @Override
@@ -19,7 +19,7 @@ public abstract class AbstractDepartment implements DepartamentInterface {
     }
 
     @Override
-    public ArrayList<EmployeeInterface> getEmployeeList() {
+    public ArrayList<StaffInterface> getEmployeeList() {
         return null;
     }
 
@@ -32,7 +32,7 @@ public abstract class AbstractDepartment implements DepartamentInterface {
         this.name = name;
     }
 
-    public void setEmployeeList(ArrayList<EmployeeInterface> employeeList) {
+    public void setEmployeeList(ArrayList<StaffInterface> employeeList) {
         this.employeeList = employeeList;
     }
 
